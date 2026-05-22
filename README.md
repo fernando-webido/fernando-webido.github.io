@@ -871,7 +871,7 @@
 
   // REVEAL
   const obs = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('in'); }), { threshold: .1, rootMargin: '0px 0px -40px 0px' });
-  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el)); 
   setTimeout(() => document.querySelectorAll('#hero .reveal').forEach(el => el.classList.add('in')), 80);
 
   // SKILL BARS
