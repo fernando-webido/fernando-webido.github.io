@@ -316,7 +316,7 @@
     <h1 class="hero-title reveal d1">
       Turning<br>complexity into<br><em>clarity</em>
     </h1>
-
+ 
     <div class="hero-diff reveal d2">
       <span>UX Research</span>
       <span class="hero-diff-sep">|</span>
